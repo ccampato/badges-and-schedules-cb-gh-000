@@ -17,7 +17,7 @@ def assign_rooms(array)
   room_assingment = []
   array.each_with_index { |speaker,index|
     room_number = index + 1
-    room_assingment = "Hello, #{speaker}! You'll be assigned to room #{room_number}!"
+    room_assingment << "Hello, #{speaker}! You'll be assigned to room #{room_number}!"
   }
   room_assingment
 end
