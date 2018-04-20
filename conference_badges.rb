@@ -29,6 +29,6 @@ def printer(array)
   end
 
   array.each do |speaker|
-    puts assign_rooms
+    puts assign_rooms(speakers)
   end
 end
