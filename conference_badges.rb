@@ -25,7 +25,7 @@ end
 
 def printer(array)
   array.each do |speaker|
-    puts batch_badge_creator
+    puts batch_badge_creator(speakers)
   end
 
   array.each do |speaker|
